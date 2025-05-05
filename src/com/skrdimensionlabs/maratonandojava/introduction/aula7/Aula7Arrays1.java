@@ -1,4 +1,4 @@
-package com.skrdimensionlabs.maratonandojava.introduction;
+package com.skrdimensionlabs.maratonandojava.introduction.aula7;
 
 public class Aula7Arrays1 {
     public static void main(String[] args) {

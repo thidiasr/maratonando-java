@@ -1,4 +1,4 @@
-package com.skrdimensionlabs.maratonandojava.introduction;
+package com.skrdimensionlabs.maratonandojava.introduction.aula1a4;
 
 /**
  * Isso é um comentário <b>javadoc</b>

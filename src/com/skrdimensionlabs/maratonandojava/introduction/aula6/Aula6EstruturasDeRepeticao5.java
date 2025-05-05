@@ -1,16 +1,14 @@
-package com.skrdimensionlabs.maratonandojava.introduction;
+package com.skrdimensionlabs.maratonandojava.introduction.aula6;
 
-public class Aula6EstruturasDeRepeticao4 {
+public class Aula6EstruturasDeRepeticao5 {
     public static void main(String[] args) {
         double valorTotal = 30000;
-        for (int parcela = 1; parcela <= valorTotal; parcela++) {
+        for (int parcela = (int) valorTotal; parcela >= 1; parcela--) {
             double valorParcela = valorTotal/parcela;
-            if(valorParcela > 1000){
-                break;
+            if(valorParcela < 1000){
+                continue;
             }
             System.out.println("Parcela: "+ parcela + "x R$"+ valorParcela);
         }
-
-
     }
 }

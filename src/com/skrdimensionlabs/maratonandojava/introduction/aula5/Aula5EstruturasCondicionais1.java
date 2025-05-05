@@ -1,4 +1,4 @@
-package com.skrdimensionlabs.maratonandojava.introduction;
+package com.skrdimensionlabs.maratonandojava.introduction.aula5;
 
 public class Aula5EstruturasCondicionais1 {
     public static void main(String[] args) {

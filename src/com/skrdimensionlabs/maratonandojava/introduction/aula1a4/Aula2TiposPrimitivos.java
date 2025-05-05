@@ -1,4 +1,4 @@
-package com.skrdimensionlabs.maratonandojava.introduction;
+package com.skrdimensionlabs.maratonandojava.introduction.aula1a4;
 
 public class Aula2TiposPrimitivos {
 

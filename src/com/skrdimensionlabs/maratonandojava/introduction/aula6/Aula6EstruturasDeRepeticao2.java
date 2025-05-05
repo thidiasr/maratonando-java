@@ -1,4 +1,4 @@
-package com.skrdimensionlabs.maratonandojava.introduction;
+package com.skrdimensionlabs.maratonandojava.introduction.aula6;
 
 public class Aula6EstruturasDeRepeticao2 {
     public static void main(String[] args) {
