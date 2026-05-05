@@ -1,20 +1,18 @@
 package learning.thdramos.maratonajava.javacore.aula22.polimorfismo.test;
 
 import learning.thdramos.maratonajava.javacore.aula22.polimorfismo.dominio.Computador;
-import learning.thdramos.maratonajava.javacore.aula22.polimorfismo.dominio.Televisao;
+import learning.thdramos.maratonajava.javacore.aula22.polimorfismo.dominio.Produto;
 import learning.thdramos.maratonajava.javacore.aula22.polimorfismo.dominio.Tomate;
 import learning.thdramos.maratonajava.javacore.aula22.polimorfismo.servico.CalculadoraImposto;
 
-public class ProdutoTest1 {
+public class ProdutoTest3 {
     static void main(String[] args) {
-        Computador computador = new Computador("Avell Storm 305", 4099);
-        Tomate tomate = new Tomate("Tomate Italiano", 9.75);
-        Televisao tv = new Televisao("Samsung 55'", 2799);
+        Produto produto = new Computador("Avell ION A50", 6499);
+        Tomate tomate = new Tomate("Tomate Cereja", 10.25);
+        tomate.setDataValidade("10/05/2026");
 
-        CalculadoraImposto.calcularImposto(computador);
-        System.out.println("-----------------------------");
         CalculadoraImposto.calcularImposto(tomate);
         System.out.println("-----------------------------");
-        CalculadoraImposto.calcularImposto(tv);
+        CalculadoraImposto.calcularImposto(produto);
     }
 }
